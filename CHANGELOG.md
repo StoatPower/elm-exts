@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## Version 28.1.0 -
+* Reintroduced `Exts.Validation` from the previous version and just removed the `|:` operator and flipped the parameters for `apply` such that this functionality can be used in Elm 0.19+ without having to resort to an entirely different validation library.
+
 ## Version 28.0.0 -
 * Updates for Elm 0.19.
 * `Exts.Date` is removed. There have been major changes to
@@ -14,6 +17,7 @@
 * `Exts.Html.Attributes.styleList` now returns `List (Attribute msg)`
   instead of a single `Attribute msg`. See `elm/html` for the
   justification.
+* `Exts.Validation` is removed, because Elm no longer supports custom infix operators.
 ## Version 27.0.0 -
 * Removed `Exts.Tuple.mapFirst` and `.mapSecond`. These are in core.
 
