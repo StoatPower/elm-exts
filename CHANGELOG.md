@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## Version 28.1.0 -
+## Version 1.0.0 -
 * Reintroduced `Exts.Validation` from the previous version and just removed the `|:` operator and flipped the parameters for `apply` such that this functionality can be used in Elm 0.19+ without having to resort to an entirely different validation library.
 
 ## Version 28.0.0 -

@@ -1,9 +1,9 @@
 {
     "type": "package",
-    "name": "krisajenkins/elm-exts",
+    "name": "stoatpower/elm-exts",
     "summary": "A collection of functions missing from the core.",
     "license": "MIT",
-    "version": "28.1.0",
+    "version": "1.0.0",
     "exposed-modules": [
         "Exts.Array",
         "Exts.Basics",
